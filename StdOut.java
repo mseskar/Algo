@@ -19,7 +19,7 @@ import java.util.Locale;
  *  To use this class, you must have {@code StdOut.class} in your
  *  Java classpath. If you used our autoinstaller, you should be all set.
  *  Otherwise, download
- *  <a href = "http://introcs.cs.princeton.edu/java/stdlib/StdOut.java">StdOut.java</a>
+ *  <a href = "https://introcs.cs.princeton.edu/java/stdlib/StdOut.java">StdOut.java</a>
  *  and put a copy in your working directory.
  *  <p>
  *  Here is an example program that uses {@code StdOut}:
@@ -50,7 +50,7 @@ import java.util.Locale;
  *  <p>
  *  <b>Reference.</b>
  *  For additional documentation,
- *  see <a href="http://introcs.cs.princeton.edu/15inout">Section 1.5</a> of
+ *  see <a href="https://introcs.cs.princeton.edu/15inout">Section 1.5</a> of
  *  <em>Computer Science: An Interdisciplinary Approach</em>
  *  by Robert Sedgewick and Kevin Wayne.
  *
@@ -187,7 +187,7 @@ public final class StdOut {
 
    /**
      * Prints an object to standard output and flushes standard output.
-     * 
+     *
      * @param x the object to print
      */
     public static void print(Object x) {
@@ -197,7 +197,7 @@ public final class StdOut {
 
    /**
      * Prints a boolean to standard output and flushes standard output.
-     * 
+     *
      * @param x the boolean to print
      */
     public static void print(boolean x) {
@@ -207,7 +207,7 @@ public final class StdOut {
 
    /**
      * Prints a character to standard output and flushes standard output.
-     * 
+     *
      * @param x the character to print
      */
     public static void print(char x) {
@@ -217,7 +217,7 @@ public final class StdOut {
 
    /**
      * Prints a double to standard output and flushes standard output.
-     * 
+     *
      * @param x the double to print
      */
     public static void print(double x) {
@@ -227,7 +227,7 @@ public final class StdOut {
 
    /**
      * Prints a float to standard output and flushes standard output.
-     * 
+     *
      * @param x the float to print
      */
     public static void print(float x) {
@@ -237,7 +237,7 @@ public final class StdOut {
 
    /**
      * Prints an integer to standard output and flushes standard output.
-     * 
+     *
      * @param x the integer to print
      */
     public static void print(int x) {
@@ -247,7 +247,7 @@ public final class StdOut {
 
    /**
      * Prints a long integer to standard output and flushes standard output.
-     * 
+     *
      * @param x the long integer to print
      */
     public static void print(long x) {
@@ -257,7 +257,7 @@ public final class StdOut {
 
    /**
      * Prints a short integer to standard output and flushes standard output.
-     * 
+     *
      * @param x the short integer to print
      */
     public static void print(short x) {
