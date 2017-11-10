@@ -14,18 +14,16 @@
  *  and counts the number of triples that sum to exactly 0
  *  (ignoring integer overflow).
  *
- *  % java ThreeSum 1Kints.txt 
+ *  % java ThreeSum 1Kints.txt
  *  70
  *
- *  % java ThreeSum 2Kints.txt 
+ *  % java ThreeSum 2Kints.txt
  *  528
  *
- *  % java ThreeSum 4Kints.txt 
+ *  % java ThreeSum 4Kints.txt
  *  4039
  *
  ******************************************************************************/
-
-package edu.princeton.cs.algs4;
 
 /**
  *  The {@code ThreeSum} class provides static methods for counting
@@ -63,7 +61,7 @@ public class ThreeSum {
                 }
             }
         }
-    } 
+    }
 
     /**
      * Returns the number of triples (i, j, k) with {@code i < j < k}
@@ -86,7 +84,7 @@ public class ThreeSum {
             }
         }
         return count;
-    } 
+    }
 
     /**
      * Reads in a sequence of integers from a file, specified as a command-line argument;
@@ -95,7 +93,7 @@ public class ThreeSum {
      *
      * @param args the command-line arguments
      */
-    public static void main(String[] args)  { 
+    public static void main(String[] args)  {
         In in = new In(args[0]);
         int[] a = in.readAllInts();
 
@@ -103,8 +101,8 @@ public class ThreeSum {
         int count = count(a);
         StdOut.println("elapsed time = " + timer.elapsedTime());
         StdOut.println(count);
-    } 
-} 
+    }
+}
 
 /******************************************************************************
  *  Copyright 2002-2016, Robert Sedgewick and Kevin Wayne.

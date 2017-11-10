@@ -55,7 +55,7 @@ public class TwoSum {
                 }
             }
         }
-    } 
+    }
 
     // return number of distinct pairs (i, j) such that a[i] + a[j] = 0
     public static int count(int[] a) {
@@ -69,16 +69,14 @@ public class TwoSum {
             }
         }
         return count;
-    } 
+    }
 
-    public static void main(String[] args)  { 
+    public static void main(String[] args)  {
         In in = new In(args[0]);
         int[] a = in.readAllInts();
         Stopwatch timer = new Stopwatch();
         int count = count(a);
         StdOut.println("elapsed time = " + timer.elapsedTime());
         StdOut.println(count);
-    } 
-} 
-
-
+    }
+}
