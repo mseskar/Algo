@@ -14,10 +14,10 @@ public class MSTAnimation_MiS
         EdgeWeightedGraph g = new EdgeWeightedGraph(in);
         StdDraw.setXscale(-0.05,1.05);
         StdDraw.setYscale(-0.05,1.05);
-        int V = g.V();
-        double[] xcoords = new double[V];
-        double[] ycoords = new double[V];
-        for(int i = 0; i<V; i++){
+        int X = g.X();
+        double[] xcoords = new double[X];
+        double[] ycoords = new double[X];
+        for(int i = 0; i<X; i++){
             xcoords[i] = Math.random();
             ycoords[i] = Math.random();
             StdDraw.filledCircle(xcoords[i],ycoords[i],0.01);
